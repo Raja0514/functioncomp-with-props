@@ -4,14 +4,14 @@ let App = (props) => {
   return (
     <div>
       <h1>Al Sadi-Qurum-Oman</h1>
-      <img src="qurum.jpg"></img>
+      <img src="qurum.jpg" alt="Error on load"></img>
       <h5>
         Country :{props.name} <br></br>
         Location:{props.location}
         <br></br>
         City:{props.city}
         <br></br>
-        MallName:{props.mallname}
+        Mall-name:{props.mallname}
       </h5>
       <Funcomp
         name="Oman"

@@ -3,7 +3,7 @@ let Card4 = (props) => {
   return (
     <React.Fragment>
       <h1>LULU Owner with Sponser</h1>
-      <img src="rt2.jpg"></img>
+      <img src="rt2.jpg" alt="error on load"></img>
       <h5>
         Name:{props.name}
         <br></br>

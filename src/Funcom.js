@@ -4,14 +4,14 @@ let Funcomp = (props) => {
   return (
     <div>
       <h1>LULU -Al Ghubra</h1>
-      <img src="lulu.jpg"></img>
+      <img src="lulu.jpg" alt="Error on load"></img>
       <h5 style={{ color: "red" }}>
         Country :{props.name} <br></br>
-        Loaction:{props.location}
+        Location:{props.location}
         <br></br>
         City:{props.city}
         <br></br>
-        MallName:{props.mallname}
+        Mall-name:{props.mallname}
       </h5>
       <Card country="Oman" city="Muscat" location="Alkuwaire"></Card>
     </div>

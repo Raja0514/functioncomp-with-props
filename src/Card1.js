@@ -4,13 +4,13 @@ let Card1 = (props) => {
   return (
     <div>
       <h1>Retail Busness of LULU</h1>
-      <img src="rt.jpg"></img>
+      <img src="rt.jpg" alt="Error load"></img>
       <h5>
         Name:{props.name}
         <br></br>
         City: {props.city}
         <br></br>
-        Loaction:{props.location}
+        Location:{props.location}
       </h5>
       <Card2 name="muscat" city="Alkuwaire" location="Mawalaa"></Card2>
     </div>

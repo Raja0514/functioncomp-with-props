@@ -4,7 +4,7 @@ let Card3 = (props) => {
   return (
     <div>
       <h1>Friday Muscat</h1>
-      <img src="rt3.jpg"></img>
+      <img src="rt3.jpg" alt="error on load"></img>
       <h5>
         Name:{props.name}
         <br></br>

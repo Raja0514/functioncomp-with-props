@@ -4,7 +4,7 @@ let Card = (props) => {
   return (
     <div>
       <h1>Globus-HyperMarket</h1>
-      <img src="gm.jpg"></img>
+      <img src="gm.jpg" alt="Error on load"></img>
       <h5>
         Name:{props.country}
         <br></br>
