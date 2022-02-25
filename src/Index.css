@@ -1,7 +1,6 @@
 body {
-  margin: 0;
-  top: 0;
-  background-color: cadetblue;
+
+  background-color:azure;
 }
 img {
   border: 2px solid orangered;
@@ -13,6 +12,7 @@ img {
 div {
   border: 2px solid green;
   padding: 20px;
+  margin: 20px;
 }
 h1 {
   text-decoration: underline;
